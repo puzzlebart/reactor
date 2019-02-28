@@ -15,3 +15,6 @@ This is a template to generate the Docker images used when creating new nuclear 
 * /temperature: reactor core temperature information
     * temperature: the current temperature of the reactor
     * last_update: the date of the last temperature update
+
+## How to add new endpoints
+The endpoints are written in Python, using flask and flask-rest to power the endpoints. You will find the server and code in ./core.py
