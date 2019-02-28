@@ -48,6 +48,6 @@ threading.Timer(5.0, update_temperature).start()
 api.add_resource(Core, '/')
 api.add_resource(Temperature, '/temperature')
 
-#Intitalize the app
+#Initialize the app
 if(__name__ == '__main__'):
     app.run(debug=True, host='0.0.0.0')
